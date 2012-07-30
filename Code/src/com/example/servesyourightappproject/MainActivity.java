@@ -1,6 +1,7 @@
 package com.example.servesyourightappproject;
 
 
+//import android.R;
 import android.R.layout;
 import android.os.Bundle;
 import android.app.Activity;
@@ -23,7 +24,7 @@ public class MainActivity extends Activity {
         TabHost th = (TabHost) findViewById(R.id.tabhost);
         th.setup();
        getWindow().setBackgroundDrawableResource(R.drawable.red);
-        Button button1 = (Button) findViewById(R.id.button1);
+       // Button button1 = (Button) findViewById(R.id.button1);
        // button1.setOnClickListener(this);
         Resources res = getResources();
         
