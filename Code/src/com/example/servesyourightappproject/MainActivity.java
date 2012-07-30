@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         
         TabHost th = (TabHost) findViewById(R.id.tabhost);
         th.setup();
-       // getWindow().setBackgroundDrawableResource(R.drawable.wall);
+       getWindow().setBackgroundDrawableResource(R.drawable.red);
         Button button1 = (Button) findViewById(R.id.button1);
        // button1.setOnClickListener(this);
         Resources res = getResources();
@@ -30,17 +30,17 @@ public class MainActivity extends Activity {
         //
         TabSpec specs = th.newTabSpec("tag1");
         specs.setContent(R.id.tab1);
-        specs.setIndicator("tab1"); //tabname
+        specs.setIndicator("About"); //tabname
         th.addTab(specs);
        //
         TabSpec specs1 = th.newTabSpec("tag2");
         specs1.setContent(R.id.tab2);
-        specs1.setIndicator(""); //tabname
+        specs1.setIndicator("Services"); //tabname
         th.addTab(specs1);
        //
         TabSpec specs11 = th.newTabSpec("tag3");
         specs11.setContent(R.id.tab3);
-        specs11.setIndicator(""); //tabname
+        specs11.setIndicator("Contact"); //tabname
         th.addTab(specs11);
        //
     
