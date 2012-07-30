@@ -58,6 +58,12 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content" >
 
+                                <ImageView
+                                    android:id="@+id/ImageView01"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="154dp"
+                                    android:src="@drawable/about" />
+
                             </TableRow>
 
                             <TableRow
