@@ -3,15 +3,12 @@ package com.example.servesyourightappproject;
 
 //import android.R;
 import android.R.layout;
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.res.Resources;
+import android.os.Bundle;
 import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Button;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
-import android.support.v4.app.NavUtils;
 
 public class MainActivity extends Activity {
 
@@ -23,7 +20,7 @@ public class MainActivity extends Activity {
         
         TabHost th = (TabHost) findViewById(R.id.tabhost);
         th.setup();
-       getWindow().setBackgroundDrawableResource(R.drawable.red);
+       getWindow().setBackgroundDrawableResource(R.drawable.paper);
        // Button button1 = (Button) findViewById(R.id.button1);
        // button1.setOnClickListener(this);
         Resources res = getResources();
