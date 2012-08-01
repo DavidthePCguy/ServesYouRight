@@ -28,7 +28,8 @@ public class MainActivity extends Activity {
         //
         TabSpec specs = th.newTabSpec("tag1");
         specs.setContent(R.id.tab1);
-        specs.setIndicator("About"); //tabname
+        specs.setIndicator("About",res.getDrawable(R.drawable.info)); //tabname
+        
         th.addTab(specs);
        //
         TabSpec specs1 = th.newTabSpec("tag2");
