@@ -17,17 +17,19 @@ public final class R {
     }
     public static final class drawable {
         public static final int about=0x7f020000;
-        public static final int contactselected=0x7f020001;
-        public static final int contactunselected=0x7f020002;
-        public static final int ic_action_search=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int info=0x7f020005;
-        public static final int infoselected=0x7f020006;
-        public static final int infounselected=0x7f020007;
-        public static final int meetsusan=0x7f020008;
-        public static final int paper=0x7f020009;
-        public static final int servicesselected=0x7f02000a;
-        public static final int servicesunselected=0x7f02000b;
+        public static final int contact=0x7f020001;
+        public static final int contactselected=0x7f020002;
+        public static final int contactunselected=0x7f020003;
+        public static final int ic_action_search=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int info=0x7f020006;
+        public static final int infoselected=0x7f020007;
+        public static final int infounselected=0x7f020008;
+        public static final int meetsusan=0x7f020009;
+        public static final int paper=0x7f02000a;
+        public static final int services=0x7f02000b;
+        public static final int servicesselected=0x7f02000c;
+        public static final int servicesunselected=0x7f02000d;
     }
     public static final class id {
         public static final int ImageView01=0x7f080006;
